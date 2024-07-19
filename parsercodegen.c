@@ -1,4 +1,4 @@
-// Authors: Josie Goreczky and Kyutza Lopez-Herrera
+
 
 #include <stdio.h>
 #include <stdlib.h>
