@@ -1,4 +1,17 @@
+PL/0 Compiler
+This project is a basic implementation of a compiler for the PL/0 programming language. The compiler performs lexical analysis, parsing, and code generation for a subset of the PL/0 language.
 
+Features
+Lexical Analysis: Scans the input PL/0 source code and converts it into tokens.
+Parsing: Verifies the syntactic structure of the program using recursive descent parsing.
+Code Generation: Generates intermediate code for the PL/0 virtual machine.
+Error Handling: Identifies and reports various errors such as undeclared identifiers, invalid symbols, and syntax errors.
+Symbol Table Management: Manages variables, constants, and procedures in a symbol table.
+Execution: The generated code can be executed by a PL/0 virtual machine.
+Files
+main.c: The main C file containing the implementation of the PL/0 compiler.
+tokens.txt: Output file that contains the list of tokens generated during lexical analysis.
+elf.txt: Output file that contains the generated assembly code for the PL/0 virtual machine.
 ```
 tiny-compiler
 ├─ actual_output1.txt
